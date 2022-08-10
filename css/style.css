@@ -1,0 +1,166 @@
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+
+.container {
+    width: 1728px;
+    margin: 0 auto;
+
+}
+
+.all-wrapper {
+    background: url(../img/Rectangle.png)no-repeat right, #FFFFFF;
+    border-radius: 50px;
+    background-size: contain;
+    background-position: right;
+}
+
+.wrapper {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrapper {
+    margin-top: 66px;
+    margin-right: 127px;
+}
+
+.logo-wrapper {
+    margin-top: 66px;
+    margin-left: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.title-logo {
+    margin-left: 7px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #6A6A6A;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    z-index: 1;
+}
+
+.olllist {
+    display: flex;
+}
+
+.list {
+    margin-right: 45px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.last {
+    margin-right: 0;
+}
+
+.link {
+
+    color: #FFFFFF;
+
+}
+
+.link:hover {
+    padding: 6px 13px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.wrapper-content {
+    padding-bottom: 363px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.title {
+    width: 360px;
+    margin-top: 123px;
+    margin-bottom: 17px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 99px;
+
+    color: #424242;
+}
+
+.text {
+    margin-bottom: 109px;
+    width: 478px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+
+    color: #484848;
+}
+
+.btn {
+    
+    padding: 19px 75px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #EDEDED;
+
+    background: linear-gradient(89.76deg, #FA982F 0.18%, #FF5E43 99.78%, rgba(196, 196, 196, 0) 99.78%);
+    filter: drop-shadow(2px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.content-img {
+    margin-top: 200px;
+    margin-left: 347px;
+    width: 731px;
+}
